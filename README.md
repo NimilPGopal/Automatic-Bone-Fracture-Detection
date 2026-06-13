@@ -246,31 +246,15 @@ python desktop/mainGUI.py
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Screenshots
 
-### Home Page
+| Home Page | Prediction Result |
+|------------|------------|
+| ![](screenshots/home_page.png) | ![](screenshots/prediction_result.png) |
 
-Add screenshot here:
-
-```text
-screenshots/home_page.png
-```
-
-### Prediction Result
-
-Add screenshot here:
-
-```text
-screenshots/prediction_result.png
-```
-
-### Grad-CAM Visualization
-
-Add screenshot here:
-
-```text
-screenshots/gradcam_result.png
-```
+| Grad-CAM Visualization | PDF Report |
+|------------|------------|
+| ![](screenshots/gradcam_result.png) | ![](screenshots/pdf_report.png) |
 
 ---
 
