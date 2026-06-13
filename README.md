@@ -266,12 +266,9 @@ This project was developed as part of an MCA specialization in Data Science, Art
 
 ## 👨‍💻 Author
 
-**Nimil P. Gopal**
-
-MCA – Data Science with AI & ML
+**Nimil P Gopal**
 
 GitHub: https://github.com/NimilPGopal
-
 LinkedIn: https://www.linkedin.com/in/nimilpgopal/
 
 ---
