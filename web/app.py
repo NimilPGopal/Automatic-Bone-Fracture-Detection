@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent
 icon_path = BASE_DIR / "assets" / "icon.png"
 
 st.set_page_config(
-    page_title="Automatic Bone Fracture Detection",
+    page_title="Automated Bone Fracture Detection",
     page_icon=str(icon_path),
     layout="centered"
 )
@@ -74,8 +74,13 @@ with st.sidebar:
     )
 st.markdown(
     """
-    <h1 style='text-align:center;  color:#00BFFF; '>
-        Automatic Bone Fracture Detection System
+    <h1 style='
+        text-align:center;
+        color:#00BFFF;
+        font-size:42px;
+        white-space:nowrap;
+    '>
+        Automated Bone Fracture Detection System
     </h1>
 
     <p style='text-align:center; font-size:18px; color:lightgray;'>
@@ -334,7 +339,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align:center; color:gray;'>
-        Automatic Bone Fracture Detection System using Deep Learning and Grad-CAM Explainability
+        Automated Bone Fracture Detection System using Deep Learning and Grad-CAM Explainability
     </div>
     """,
     unsafe_allow_html=True

@@ -30,7 +30,7 @@ class App(ctk.CTk):
         super().__init__()
         self.filename = None
 
-        self.title("Automatic Bone Fracture Detection")
+        self.title("Automated Bone Fracture Detection")
         self.geometry("950x700")
         self.minsize(900, 650)
 
@@ -275,7 +275,7 @@ class App(ctk.CTk):
         # =========================================
 
         about_text = """
-        AutomaticBone Fracture Detection System
+        Automated Bone Fracture Detection System
 
         This system uses Deep Learning and DenseNet121
         to detect fractures from X-ray images.
@@ -314,7 +314,7 @@ class App(ctk.CTk):
         # =========================================
         # UPLOAD TAB
         # =========================================
-        self.head_label = ctk.CTkLabel(master=self.head_frame, text="Automatic Bone Fracture Detection",
+        self.head_label = ctk.CTkLabel(master=self.head_frame, text="Automated Bone Fracture Detection",
                                        font=(ctk.CTkFont("Roboto"), 26))
         self.head_label.pack(pady=20, padx=10, anchor="nw", side="left")
         img1 = ctk.CTkImage(Image.open(IMAGES_DIR / "info.jpeg"))
@@ -325,7 +325,7 @@ class App(ctk.CTk):
         self.info_button.pack(pady=10, padx=10, anchor="nw", side="right")
 
         self.info_label = ctk.CTkLabel(master=self.upload_tab,
-                                       text="Automatic bone fracture detection system, upload an x-ray image for fracture detection.",
+                                       text="Automated bone fracture detection system, upload an x-ray image for fracture detection.",
                                        wraplength=300, font=(ctk.CTkFont("Roboto"), 18))
         self.info_label.pack(pady=10, padx=10)
 

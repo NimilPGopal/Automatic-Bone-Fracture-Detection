@@ -1,4 +1,4 @@
-# 🦴 Automatic Bone Fracture Detection
+# 🦴 Automated Bone Fracture Detection
 
 An AI-powered Bone Fracture Detection System that automatically identifies the body part from an X-ray image and then performs fracture detection using specialized deep learning models. The system is built using DenseNet121, TensorFlow, Streamlit, and Grad-CAM to provide accurate predictions along with visual explanations.
 
@@ -77,11 +77,9 @@ Separate DenseNet121 models were trained for:
 ## 📂 Project Structure
 
 ```text
-Automatic-Bone-Fracture-Detection/
+Automated-Bone-Fracture-Detection/
 │
-├── assets/
-│   ├── logo.png
-│   └── sample_xray.jpeg
+
 │
 ├── core/
 │   ├── config.py
@@ -170,7 +168,7 @@ https://stanfordmlgroup.github.io/competitions/mura/
 ```bash
 git clone https://github.com/YOUR_USERNAME/Bone-Fracture-Detection-Using-MURA-Dataset.git
 
-cd Automatic-Bone-Fracture-Detection
+cd Automated-Bone-Fracture-Detection
 ```
 
 ### Create Virtual Environment
@@ -269,6 +267,7 @@ This project was developed as part of an MCA specialization in Data Science, Art
 **Nimil P Gopal**
 
 GitHub: https://github.com/NimilPGopal
+
 LinkedIn: https://www.linkedin.com/in/nimilpgopal/
 
 ---
